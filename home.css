@@ -1,0 +1,141 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 20px;
+	background-color: rgb(59,9,9);
+    font-family: calibri;
+	margin: 0 2% 5% 2%;
+	border-radius: 0 0px 10px 10px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2rem;
+    background-image: linear-gradient(to right, gold, white);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-weight: 600;
+    cursor: pointer;
+	font-family: verdana;
+}
+
+.menu__keys li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.menu__keys li a{
+    color: #fff;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+}
+
+.mission, .vision, .core__values{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 2%;
+}
+
+.mission{
+	margin: 10% 2% 2% 2%;
+}
+
+.vision p{
+	font-weight: 400;
+	font-size: 15px;
+}
+.menu__keys li a:hover{
+    color: red;
+}
+
+.menu__btn button{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: red;
+    color: #fff;
+    transition: .4s ease;
+}
+
+.menu__btn button:hover{
+    transform: translateY(-5px);
+    background-color: rgba(255, 0, 0, 0.616);
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 5%;
+	font-family: verdana;
+}
+
+.chief__principal{
+	display: flex;
+	align-items: center;
+	background-color: rgba(60, 8,8,0.7);
+	padding: 5%;
+	border-radius: 15px;
+	justify-content: space-between;
+	gap: 10%;
+}
+
+.chief__principal header{
+	margin: 2%;
+	font-family: Segoe UI;
+}
+
+.chief__principal header h1{
+	color: #fff;
+}
+
+.chief__principal header h2{
+	font-weight: 500;
+	color: maroon;
+}
+
+.chief__principal p em{
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+.image img{
+	display: flex;
+	width: 350px;
+	border-radius: 10px;
+	float: right;
+	margin: 10% 0;
+}	
+
+@media screen and (max-width:1000px){
+	.chief__principal{
+		display:flex;
+		flex-direction: column;
+	} 
+	
+	.image{
+		display:flex:
+	}
+
+	.image img{
+		display: flex;
+		width: 400px;
+		border-radius: 10px;
+		float: right;
+		margin: 10% 0;
+	}	
+}
